@@ -1,34 +1,25 @@
-# EndOfWorld // Crisis Response OS
+# EndOfWorld // Crisis Response Simulator
 
-A browser-based, realistic geopolitical techno-thriller crisis simulator exploring the subtle, high-stakes trade-offs of autonomous systems, algorithmic governance, and emergency human intervention.
+A minimalist, high-contrast **black-and-white** decision game about AI governance, critical infrastructure auditing, and emergency human intervention.
 
-Includes a comprehensive **Easy-to-Read Edition** designed for dyslexic students, neurodivergent readers, and classroom accessibility.
+Designed for maximum readability on both mobile and desktop screens, with built-in dyslexia-friendly typography and a choice between pure Dark and Light modes.
 
 ## Highlights & Features
 
-- **Executive Role Selection**: Choose from 4 distinct operational jurisdictions across civilian and critical sectors:
+- **Monochrome High-Contrast Aesthetics**: Pure black-and-white design without distracting neon colors, scanlines, or visual clutter.
+- **Dark Mode & Light Mode**: Toggle between high-contrast dark (`#000000`) and pure clean light (`#ffffff`) with a single click.
+- **Dedicated Font Switcher (`Aa Font`)**: Instant switching between:
+  - **Lexend (Default)**: Engineered by educational researchers to reduce visual crowding and enhance reading fluency for dyslexic students.
+  - **Atkinson Hyperlegible**: Developed by the Braille Institute of America for unambiguous letter distinction.
+  - **Clean System Sans**: Universal system sans-serif (Inter / Arial).
+- **Executive Role Selection**: 4 distinct civilian and critical infrastructure jurisdictions:
   1. **Dr. Maya Lin** — Chief AI Safety Auditor (*Frontier AI Oversight & Model Registry*)
   2. **Marcus Vance** — Grid Resilience Director (*Continental Energy & SCADA Networks*)
   3. **Dr. Elena Rostova** — Chief Medical Officer (*Public Health, Bio-Ethics & Epidemic Defense*)
   4. **Julian Sterling** — Market Integrity Director (*High-Frequency Algorithmic Capital & Settlement*)
-- **Branching 3-Act Narrative Tracks**: Each role features an independent storyline with subtle, nuanced dilemmas where every choice involves legitimate operational trade-offs (response latency vs. mathematical verification, false alarm panic vs. catastrophic systemic risk).
-- **Interactive Telemetry HUD**: Sector-specific metric gauges and an animated 60 FPS real-time oscilloscope canvas (neural loss spectra, 60 Hz power grid harmonics, cardiac triage queues, order-book depth).
-- **System Controls**: Persistent `⟲ REBOOT` button with confirmation modal, show full text controls, and Web Audio API synthesized terminal sound effects (with audio toggle).
-- **Comprehensive After-Action Debrief**: Detailed post-mortem report tracking all decisions, institutional fallout, final telemetry ratings, and export-to-clipboard functionality.
-
-### ♿ Easy-to-Read & Dyslexia Accessibility Suite
-
-- **Dyslexia-Friendly Typography**: One-click toggle between **Lexend** (proven by educational research to reduce visual crowding and increase reading fluency) and **Atkinson Hyperlegible** (developed by the Braille Institute for visual distinction), with clean system sans fallbacks.
-- **Low-Glare Contrast Themes**:
-  - **Warm Paper Cream**: Off-white paper background (`#fbf8f2`) with deep slate text to eliminate retinal glare and soothe visual stress (Irlen syndrome / scotopic sensitivity).
-  - **Soft Pastel Tint**: Butter-yellow parchment tint (`#fefae0`) proven to aid tracking for dyslexic readers.
-  - **High-Contrast Dark Mode**: Crisp, non-glare dark slate (`#0d1217`) with clear white text.
-  - **Cyber Terminal (Default)**: Authentic retro CRT green phosphor.
-- **Reading Ruler (Line Guide)**: Interactive horizontal focus bar that follows mouse/touch cursor to prevent skipping lines.
-- **Distraction-Free Reading**: Strips away CRT scanlines, flicker, and screen glitch animations.
-- **Instant Text Delivery**: Skips typewriter delays to reduce cognitive tracking fatigue.
-- **Text Resizing**: Scalable to 100%, 120%, and 140% font sizes with generous line-height (1.85+) and relaxed letter/word spacing.
-- **Persistent Preferences**: Saves student accessibility choices to `localStorage`.
+- **Subtle 3-Act Narrative Tracks**: Realistic geopolitical techno-thriller dilemmas where both choices have legitimate arguments and real costs.
+- **Mobile Optimized**: Responsive single-column layout, touch-friendly buttons (minimum 48px height), and collapsible telemetry details.
+- **Reboot & After-Action Report**: Persistent `⟲ Reboot` button, post-mortem debrief, and one-click report export to clipboard.
 
 ## Run Locally
 
@@ -37,10 +28,10 @@ Open `index.html` in any modern web browser. No installation or build step is re
 ```bash
 # Optional: run a local server
 python3 -m http.server 8000
-# Then visit http://localhost:8000
+# Visit http://localhost:8000
 ```
 
 ## Project Structure
 
-- `index.html` — Self-contained application containing the UI, stylesheets, dyslexia accessibility engine, audio synthesizer, and state machine.
+- `index.html` — The self-contained web application.
 - `assets/` — Sector scenario visual banners.
